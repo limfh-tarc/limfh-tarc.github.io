@@ -1,0 +1,193 @@
+* { 
+    box-sizing: border-box; 
+}
+
+/*
+@media (max-width: 600px){
+#herojobs{
+    background-image: none;
+}
+h1{
+    color:red;
+}
+}
+*/
+
+/*Images*/
+#heroroad{
+    background-image: url(Javajam\ Data\ Files/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromug{
+    background-image: url(Javajam\ Data\ Files/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar{
+    background-image: url(Javajam\ Data\ Files/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+body{
+    background-color:#FCEBB6;
+    background-image: url(Javajam\ Data\ Files/background.gif);
+    color:#221811;
+    font-family:Verdana, Arial,sans-serif ;
+}
+
+header{
+    background-color:#D2B48C;
+    background-image: url(Javajam\ Data\ Files/javajamlogo.jpg);
+    background-repeat: no-repeat;
+    height: 150px;
+    display:block;
+}
+
+h1{ 
+    padding-top: 45px;
+    padding-left: 220px;
+    /*padding: top right bottom left*/
+    /*padding: 45px 0px 0px 220px*/
+    font-size: 3em;
+}
+
+nav{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+    float: left;
+    width: 200px;
+    display:block;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav a:link{
+    color:#FEF6C2;
+}
+
+nav a:visited{
+    color:#D2B48C
+}
+
+nav a:hover{
+    color:#CC9933;
+}
+
+nav ul{
+    list-style-type: none;
+    padding-left: 0em;
+}
+
+main{
+    padding: 0em 0em 2em 0em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+    display:block;
+}
+
+main h2, 
+main h3, 
+main h4, 
+main p, 
+main div, 
+main ul, 
+main dl{
+    padding-left: 3em;
+    padding-right: 2em;
+}
+
+.details{
+    padding: 0 20%;
+    overflow:auto;
+}
+
+.floatleft{
+    float:left;
+    padding:0em 2em 2em 0em;
+}
+
+h4{
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0em;
+    border-bottom: #221811 solid 2px;
+    text-transform: uppercase;
+    clear:left;
+}
+
+table{
+    margin:auto;
+    width: 90%;
+    border-spacing: 0;
+    background-color: #FFFFCC;
+}
+
+td,th{
+    padding: 10px;
+}
+
+table tr:nth-of-type(odd){
+    background-color: #D2B48E;
+}
+
+#wrapper{
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 2px 2px ;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+img{
+   padding: 0px 10px; 
+}
+
+footer{
+    background-color:#D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+    padding-bottom: 10px;
+    border-top: 2px solid #221811;
+    display:block;
+}
+
+form{
+    padding: 2em;
+}
+
+label{
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea{
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mySubmit{
+    margin-left: 9.65em;
+}
+
+@media (min-width: 600px){
+    #herojobs{
+        height: 250px;
+        background-image: url(Javajam\ Data\ Files/herojobs.jpg);
+        background-size: 100%;
+    }
+}
